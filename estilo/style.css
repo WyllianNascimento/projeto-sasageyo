@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'angel-wish';
-    src: url(fontes/angel-wish.ttf) format(truetype);
+    src: url(../fontes/angel_wish/angel-wish.ttf) format(truetype), url(../fontes/angel_wish/angel-wish.otf) format(opentype);
     font-weight: normal;
     font-style: normal;
 }
@@ -34,6 +34,6 @@ header {
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
-    font-family: var(--fonte0);
+    font-family: 'angel-wish';
     font-size: 10vw;
 }
