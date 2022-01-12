@@ -1,17 +1,14 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');*/
 
-@font-face {
-    font-family: 'Angel wish';
-    src: url('../fontes/Angel wish.ttf') format(truetype), url('../fontes/Angel wish.otf') format(opentype);
-    font-weight: normal;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap');
 
 :root {
-    --fonte0: 'Angel wish';
-    --fonte1: 'Moon Dance', cursive;
+    --fonte0: 'Stardos Stencil', cursive;
+    --fonte1: 'Permanent Marker', cursive;
 }
 
 * {
@@ -22,7 +19,7 @@
 html, body {
     min-height: 100vh;
     background-color: darkgray;
-    font-family: 'Angel wish'
+    font-family: var(--fonte1)
 }
 
 header {
@@ -34,6 +31,31 @@ header {
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
-    font-family: var(--fonte0)
+    font-family: var(--fonte0);
     font-size: 10vw;
+    font-weight: 500;
 }
+
+header > p {
+    padding-bottom: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    color: #B8860B;
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+}
+
