@@ -9,6 +9,9 @@
 :root {
     --fonte0: 'Stardos Stencil', cursive;
     --fonte1: 'Permanent Marker', cursive;
+    --fonte2: Verdana, Geneva, Tahoma, sans-serif;
+    --cor1: #DAA520;
+    --cor2: #006400;
 }
 
 * {
@@ -18,7 +21,6 @@
 
 html, body {
     min-height: 100vh;
-    background-color: #006400;
     font-family: var(--fonte1)
 }
 
@@ -47,7 +49,7 @@ a {
 }
 
 a:hover {
-    color: #006400;
+    color: var(--cor2);
     text-decoration: underline;
 }
 
@@ -65,8 +67,13 @@ section > p {
 }
 
 section.normal {
-    background-color: #DAA520;
+    background-color: var(--cor1);
     color: black;
+}
+
+section#verde {
+    background-color: black;
+    color: var(--cor1);
 }
 
 section.imagem {
@@ -85,6 +92,25 @@ section.imagem > p {
 }
 
 section#img1 {
-    background-image: url(../imagens/img05.webp);
+    background-image: url(../imagens/img07.png);
+    background-position: top right;
+}
+
+section#img2 {
+    background-image: url(../imagens/img04.webp);
     background-position: top center;
 }
+
+section#img3 {
+    background-image: url(../imagens/img06.webp);
+    background-position: top center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
