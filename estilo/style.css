@@ -3,14 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
 
 @font-face {
-    font-family: 'angel-wish';
-    src: url(../fontes/angel_wish/angel-wish.ttf) format(truetype), url(../fontes/angel_wish/angel-wish.otf) format(opentype);
+    font-family: 'Angel wish';
+    src: url('../fontes/Angel wish.ttf') format(truetype), url('../fontes/Angel wish.otf') format(opentype);
     font-weight: normal;
     font-style: normal;
 }
 
 :root {
-    --fonte0: 'angel-wish';
+    --fonte0: 'Angel wish';
     --fonte1: 'Moon Dance', cursive;
 }
 
@@ -22,7 +22,7 @@
 html, body {
     min-height: 100vh;
     background-color: darkgray;
-    font-family: var(--fonte1);
+    font-family: 'Angel wish'
 }
 
 header {
@@ -34,6 +34,6 @@ header {
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
-    font-family: 'angel-wish';
+    font-family: var(--fonte0)
     font-size: 10vw;
 }
