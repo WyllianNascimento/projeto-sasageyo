@@ -18,7 +18,7 @@
 
 html, body {
     min-height: 100vh;
-    background-color: darkgray;
+    background-color: #006400;
     font-family: var(--fonte1)
 }
 
@@ -47,7 +47,7 @@ a {
 }
 
 a:hover {
-    color: #B8860B;
+    color: #006400;
     text-decoration: underline;
 }
 
@@ -55,7 +55,36 @@ section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
-    font-family: var(--fonte3);
+    font-family: var(--fonte1);
     font-size: 3.5vw;
 }
 
+section > p {
+    padding-bottom: 2em;
+    margin-left: 20px;
+}
+
+section.normal {
+    background-color: #DAA520;
+    color: black;
+}
+
+section.imagem {
+    background-color: #1C1C1C;
+    color: white;
+    box-shadow: inset 6px 6px 12px 0px rgba(0, 0, 0, 0.515);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.500);
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img1 {
+    background-image: url(../imagens/img05.webp);
+    background-position: top center;
+}
