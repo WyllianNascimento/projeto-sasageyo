@@ -60,7 +60,7 @@ audio {
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2em;
+    line-height: 3em;
     font-family: var(--fonte1);
     font-size: 3.5vw;
 }
