@@ -68,8 +68,11 @@
         <p>Developed by <a href="https://github.com/WyllianNascimento" target="_blank">Wyllian Nascimento</a></p>
     </footer>
     <script>
-        var nome = window.prompt('Qual o seu nome? ');
-        window.alert('Obrigado por me visitar, '+ nome + ' 😜');
+        var nome = window.prompt('Qual o seu nome? ')
+        while(nome.length == 0) {
+            prompt('Quero saber seu nome')
+        }
+        alert('Obrigado por me visitar, '+ nome + ' 😜')
     </script>
 </body>
 </html>
