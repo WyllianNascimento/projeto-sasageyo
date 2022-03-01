@@ -98,11 +98,26 @@ section.imagem > p {
 }
 
 section#img1 {
-    background-image: url(../imagens/rumbling04.jpeg);
+    background-image: url(../imagens/rumbling06.jpg);
     background-position: top right;
 }
 
 section#img2 {
-    background-image: url(../imagens/rumbling06.jpg);
+    background-image: url(../imagens/rumbling04.jpeg);
     background-position: top right;
+}
+
+section#img3 {
+    background-image: url(../imagens/rumbling07.jpg);
+}
+
+footer {
+    background-color: black;
+    padding: 10px;   
+}
+
+footer > p {
+    color: var(--cor1);
+    text-align: center;
+    font-family: var(--fonte2);
 }
