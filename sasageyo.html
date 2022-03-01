@@ -12,9 +12,9 @@
     <header>
         <h1>Shinzou wo Sasageyo!</h1>
         <p>Por <a href="https://youtu.be/NYjhd5I7kOE" target="_blank">Miura Jam</a></p>
-        <audio controls="play" loop autoplay>
-            <source src="audio/sasageyo.mp3" type="audio/mpeg">
-        </audio>
+        <audio src="audio/sasageyo.mp3" loop></audio>
+        <button id="play">Play</button>
+        <button id="pause">Pause</button>
     </header>
     
     <section class="imagem" id="img1">
@@ -71,6 +71,18 @@
     <script>
         var nome = window.prompt('Qual o seu nome? ')
         alert('Obrigado por me visitar, '+ nome + ' 😜')
+    </script>
+    <script>
+        const play = document.querySelector('#play')
+        const pause = document.querySelector('#pause')
+        play.addEventListener('click', function(){
+            const audio = document.querySelector('audio')
+            audio.play()
+        })
+        pause.addEventListener('click', function(){
+            const audio = document.querySelector('audio')
+            audio.pause()
+        })
     </script>
 </body>
 </html>

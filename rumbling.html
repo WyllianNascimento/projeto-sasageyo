@@ -12,9 +12,9 @@
     <header>
         <h1>The Rumbling</h1>
         <p>Por <a href="https://youtu.be/kgcAWjrXXiE" target="_blank">Miura Jam</a></p>
-        <audio controls="play" loop autoplay>
-            <source src="audio/rumbling.mp3" type="audio/mpeg">
-        </audio>
+        <audio src="audio/rumbling.mp3" loop></audio>
+        <button id="play">Play</button>
+        <button id="pause">Pause</button>
     </header>
     <section class="imagem" id="img1">
         <p>
@@ -61,5 +61,20 @@
     <footer>
         <p>Developed by <a href="https://github.com/WyllianNascimento" target="_blank">Wyllian Nascimento</a></p>
     </footer>
+    <script>
+        alert("Obrigado por me visitar minha idiota preferida ❤")
+    </script>
+    <script>
+        const play = document.querySelector('#play')
+        const pause = document.querySelector('#pause')
+        play.addEventListener('click', function(){
+            const audio = document.querySelector('audio')
+            audio.play()
+        })
+        pause.addEventListener('click', function(){
+            const audio = document.querySelector('audio')
+            audio.pause()
+        })
+    </script>
 </body>
 </html>

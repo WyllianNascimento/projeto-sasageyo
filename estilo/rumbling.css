@@ -28,6 +28,14 @@ header {
     text-align: center;
 }
 
+button {
+    background-color: black;
+    color: var(--cor2);
+    border-radius: 20%;
+    padding: 10px;
+    margin: 10px;
+}
+
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
@@ -52,11 +60,6 @@ a {
 a:hover {
     color: var(--cor1);
     text-decoration: underline;
-}
-
-audio {
-    width: 300px;
-    color: black;
 }
 
 section {
