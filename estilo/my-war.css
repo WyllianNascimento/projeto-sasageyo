@@ -9,7 +9,10 @@
     --fonte1: 'Permanent Marker', cursive;
     --fonte2: Verdana, Geneva, Tahoma, sans-serif;
     --cor1: #a9a9a9;
-    --cor2: #006400;
+    --cor2: #346699;
+    --cor3: #8ae6d9;
+    --cor4: #daba2d;
+    --cor5: #bbf58d;
 }
 
 * {
@@ -42,7 +45,7 @@ header > p {
 }
 
 a {
-    color: black;
+    color: var(--cor3);
     text-decoration: none;
     font-weight: bolder;
 }
@@ -74,13 +77,23 @@ section > p {
 }
 
 section.normal {
-    background-color: var(--cor1);
     color: black;
 }
 
-section#preto {
-    background-color: black;
-    color: var(--cor1);
+section#cor1 {
+    background-color: var(--cor2);
+}
+
+section#cor2 {
+    background-color: var(--cor3);
+}
+
+section#cor3 {
+    background-color: var(--cor4);
+}
+
+section#cor4 {
+    background-color: var(--cor5);
 }
 
 section.imagem {
@@ -96,4 +109,34 @@ section.imagem > p {
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.500);
     text-shadow: 1px 1px 0px black;
+}
+
+section#img1 {
+    background-image: url(../imagens/my-war01.jpg);
+}
+
+section#img2 {
+    background-image: url(../imagens/my-war04.jpg);
+    background-position: center bottom;
+}
+
+section#img3 {
+    background-image: url(../imagens/my-war07.jpg);
+    background-position: top center;
+}
+
+section#img4 {
+    background-image: url(../imagens/my-war05.jpg);
+    background-position: center center;
+}
+
+footer {
+    background-color: black;
+    padding: 10px;   
+}
+
+footer > p {
+    color: var(--cor1);
+    text-align: center;
+    font-family: var(--fonte2);
 }
