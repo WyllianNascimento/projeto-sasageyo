@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap');
+
+:root {
+    --fonte0: 'Stardos Stencil', cursive;
+    --fonte1: 'Permanent Marker', cursive;
+    --fonte2: Verdana, Geneva, Tahoma, sans-serif;
+    --cor1: #DAA520;
+    --cor2: #006400;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    font-family: var(--fonte1)
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte0);
+    font-size: 10vw;
+    font-weight: 500;
+}
+
+header > p {
+    padding-bottom: 50px;
+    font-family: var(--fonte2);
+}
+
+a {
+    color: var(--cor1);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    color: var(--cor2);
+    text-decoration: underline;
+}
+
+button {
+    background-color: black;
+    color: var(--cor2);
+    border-radius: 20%;
+    padding: 10px;
+    margin: 10px;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 3em;
+    font-family: var(--fonte1);
+    font-size: 3.5vw;
+}
+
+section > p {
+    padding-bottom: 2.5em;
+    margin-left: 20px;
+}
