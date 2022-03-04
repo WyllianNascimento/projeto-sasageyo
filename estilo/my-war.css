@@ -114,21 +114,31 @@ section.imagem > p {
 
 section#img1 {
     background-image: url(../imagens/my-war01.jpg);
+    background-position: center center;
 }
 
 section#img2 {
-    background-image: url(../imagens/my-war04.jpg);
-    background-position: center bottom;
+    background-image: url(../imagens/my-war02.jpg);
+    background-position: center top;
 }
 
 section#img3 {
-    background-image: url(../imagens/my-war07.jpg);
+    background-image: url(../imagens/my-war04.jpg);
     background-position: top center;
 }
 
 section#img4 {
     background-image: url(../imagens/my-war05.jpg);
     background-position: center center;
+}
+
+section#img5 {
+    background-image: url(../imagens/my-war06.jpg);
+    background-position: top center;
+}
+
+section#img6 {
+    background-image: url(../imagens/my-war03.jpg);
 }
 
 footer {
