@@ -8,7 +8,7 @@
     --fonte0: 'Stardos Stencil', cursive;
     --fonte1: 'Permanent Marker', cursive;
     --fonte2: Verdana, Geneva, Tahoma, sans-serif;
-    --cor1: #DAA520;
+    --cor1: #a9a9a9;
     --cor2: #006400;
 }
 
@@ -23,8 +23,8 @@ html, body {
 }
 
 header {
-    background-color: black;
-    color: white;
+    background-color: var(--cor1);
+    color: black;
     text-align: center;
 }
 
@@ -42,7 +42,7 @@ header > p {
 }
 
 a {
-    color: var(--cor1);
+    color: black;
     text-decoration: none;
     font-weight: bolder;
 }
@@ -53,8 +53,8 @@ a:hover {
 }
 
 button {
-    background-color: black;
-    color: var(--cor2);
+    background-color: var(--cor1);
+    color: black;
     border-radius: 20%;
     padding: 10px;
     margin: 10px;
@@ -71,4 +71,29 @@ section {
 section > p {
     padding-bottom: 2.5em;
     margin-left: 20px;
+}
+
+section.normal {
+    background-color: var(--cor1);
+    color: black;
+}
+
+section#preto {
+    background-color: black;
+    color: var(--cor1);
+}
+
+section.imagem {
+    background-color: var(--cor3);
+    color: white;
+    box-shadow: inset 6px 6px 12px 0px rgba(0, 0, 0, 0.515);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.500);
+    text-shadow: 1px 1px 0px black;
 }
