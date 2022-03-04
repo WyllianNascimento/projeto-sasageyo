@@ -26,8 +26,8 @@ html, body {
 }
 
 header {
-    background-color: var(--cor1);
-    color: black;
+    background-color: black;
+    color: var(--cor1);
     text-align: center;
 }
 
@@ -45,7 +45,7 @@ header > p {
 }
 
 a {
-    color: black;
+    color: var(--cor1);
     text-decoration: none;
     font-weight: bolder;
 }
