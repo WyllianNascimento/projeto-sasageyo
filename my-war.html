@@ -90,6 +90,20 @@
             E a luta finda no alvorecer
         </p>
     </section>
-    
+    <footer>
+        <p>Developed by <a href="https://github.com/WyllianNascimento" target="_blank">Wyllian Nascimento</a></p>
+    </footer>
+    <script>
+        const play = document.querySelector('#play')
+        const pause = document.querySelector('#pause')
+        play.addEventListener('click', function(){
+            const audio = document.querySelector('audio')
+            audio.play()
+        })
+        pause.addEventListener('click', function(){
+            const audio = document.querySelector('audio')
+            audio.pause()
+        })
+    </script>
 </body>
 </html>
